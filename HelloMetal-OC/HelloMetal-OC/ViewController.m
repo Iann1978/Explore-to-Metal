@@ -10,6 +10,9 @@
 #import "Renderer.h"
 
 @implementation ViewController
+{
+    Renderer* renderer;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,10 +30,9 @@
     mtkView.device = device;
    
     
-    Renderer *renderer = [[Renderer alloc] init: mtkView];
+    renderer = [[Renderer alloc] init: mtkView];
     [renderer mtkView:mtkView drawableSizeWillChange:mtkView.bounds.size];
     mtkView.delegate = renderer;
-    [renderer drawInMTKView:mtkView];
 }
 
 
