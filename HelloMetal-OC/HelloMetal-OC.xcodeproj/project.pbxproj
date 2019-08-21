@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		BA580E9F22E6F3900006D56F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580E9E22E6F3900006D56F /* AppDelegate.m */; };
 		BA580EA222E6F3900006D56F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580EA122E6F3900006D56F /* ViewController.m */; };
-		BA580EA422E6F3910006D56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA580EA322E6F3910006D56F /* Assets.xcassets */; };
+		BA580EA422E6F3910006D56F /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = BA580EA322E6F3910006D56F /* abc.png */; };
 		BA580EA722E6F3910006D56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA580EA522E6F3910006D56F /* Main.storyboard */; };
 		BA580EAA22E6F3910006D56F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580EA922E6F3910006D56F /* main.m */; };
 		BA580EB922E703050006D56F /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BA580EB822E703050006D56F /* Renderer.m */; };
+		BA5FC8A4230D2B600081CAD3 /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5FC8A3230D2B600081CAD3 /* abc.png */; };
+		BA5FC8A7230D35220081CAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5FC8A6230D35220081CAD3 /* Assets.xcassets */; };
 		BA62B71022E94103000B1580 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = BA62B70F22E94103000B1580 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +24,16 @@
 		BA580E9E22E6F3900006D56F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA580EA022E6F3900006D56F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BA580EA122E6F3900006D56F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BA580EA322E6F3910006D56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA580EA322E6F3910006D56F /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
 		BA580EA622E6F3910006D56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA580EA822E6F3910006D56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA580EA922E6F3910006D56F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA580EAB22E6F3910006D56F /* HelloMetal_OC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloMetal_OC.entitlements; sourceTree = "<group>"; };
 		BA580EB722E703050006D56F /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
 		BA580EB822E703050006D56F /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		BA5FC8A3230D2B600081CAD3 /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
+		BA5FC8A5230D2EAB0081CAD3 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		BA5FC8A6230D35220081CAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA62B70F22E94103000B1580 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,11 +67,13 @@
 		BA580E9C22E6F3900006D56F /* HelloMetal-OC */ = {
 			isa = PBXGroup;
 			children = (
+				BA5FC8A6230D35220081CAD3 /* Assets.xcassets */,
+				BA5FC8A3230D2B600081CAD3 /* abc.png */,
 				BA580E9D22E6F3900006D56F /* AppDelegate.h */,
 				BA580E9E22E6F3900006D56F /* AppDelegate.m */,
 				BA580EA022E6F3900006D56F /* ViewController.h */,
 				BA580EA122E6F3900006D56F /* ViewController.m */,
-				BA580EA322E6F3910006D56F /* Assets.xcassets */,
+				BA580EA322E6F3910006D56F /* abc.png */,
 				BA580EA522E6F3910006D56F /* Main.storyboard */,
 				BA580EA822E6F3910006D56F /* Info.plist */,
 				BA580EA922E6F3910006D56F /* main.m */,
@@ -74,6 +81,7 @@
 				BA62B70F22E94103000B1580 /* Shaders.metal */,
 				BA580EB722E703050006D56F /* Renderer.h */,
 				BA580EB822E703050006D56F /* Renderer.m */,
+				BA5FC8A5230D2EAB0081CAD3 /* ShaderTypes.h */,
 			);
 			path = "HelloMetal-OC";
 			sourceTree = "<group>";
@@ -135,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA580EA422E6F3910006D56F /* Assets.xcassets in Resources */,
+				BA5FC8A4230D2B600081CAD3 /* abc.png in Resources */,
+				BA580EA422E6F3910006D56F /* abc.png in Resources */,
+				BA5FC8A7230D35220081CAD3 /* Assets.xcassets in Resources */,
 				BA580EA722E6F3910006D56F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
